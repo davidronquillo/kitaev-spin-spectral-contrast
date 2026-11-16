@@ -15,6 +15,7 @@ python3 scripts/relative_contrast/reduce_relative_contrast.py
 python3 scripts/relative_contrast/verify_relative_contrast.py
 python3 scripts/check_reported_diagnostics.py
 python3 scripts/summarize_validation.py
+python3 scripts/check_seven_orbit_witness.py --output outputs/witness/seven_orbit_witness_check.json
 ```
 
 Expected results:
@@ -23,6 +24,7 @@ Expected results:
 - Four original-record mean-input rows are reconstructed exactly. The relative-contrast reducer reproduces eight original/printed-input intervals, and a separate directed-Decimal calculation agrees with each ratio.
 - All 96 Table S1 ordinate boxes are compatible. The 170 saved window bounds yield 37 strictly higher-sector, 0 strictly one-particle, and 133 unresolved classifications. The physical-field grid and discrete displacement sets agree.
 - Saved validation records summarize 8 N24 fixtures, 620 higher-sector checks, 406 transform checks, and 6 direct-comparison sources.
+- The seven-orbit witness has positive exact weights summing to one. Its three raw face-dephased bands, three moments, and four joint populations lie wholly within their targets; every occupied downward interval is exactly zero. Recomputed endpoints and containment slacks match the saved witness exactly.
 
 Outputs are written under `outputs/`. Accepted expected files are retained under `results/`; the data, exact weights, endpoint conventions, and source IDs remain unchanged by these commands. To compare every generated report with its expected file:
 
@@ -41,6 +43,8 @@ PY
 ```
 
 The complete file-to-paper mapping, exact outputs, and reproduction scope are in [docs/reproduction_map.md](docs/reproduction_map.md). Input columns, normalization, interval arithmetic, conditioning, and probability conventions are documented in [docs/scalar_schema.md](docs/scalar_schema.md). [docs/file_manifest.json](docs/file_manifest.json) lists the exported scientific files and their SHA-256 hashes.
+
+The compact [seven-orbit witness](docs/seven_orbit_witness.md) supplies its seven input rows, common weights, targets, and standalone exact-arithmetic checker for Sec. V A and Supplemental Sec. S5.
 
 ## Inspect methods and make local plots
 

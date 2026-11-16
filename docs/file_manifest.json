@@ -14,8 +14,8 @@
     {
       "path": "README.md",
       "role": "repository documentation or configuration",
-      "bytes": 4424,
-      "sha256": "a038ac0796d234a4047eae09d38b565475338822be2c7fde666c916518d9bccd"
+      "bytes": 5030,
+      "sha256": "71ebc390fb04a5c93652ac02fdce04a975a972602bf11a3ef06685eb6b252596"
     },
     {
       "path": "data/diagnostics/N6144_sign_frequencies.csv",
@@ -174,6 +174,12 @@
       "sha256": "23222bf7c383148784b20b5aed02b107c0d23933caec14918525e268753a42a0"
     },
     {
+      "path": "data/seven_orbit_witness.json",
+      "role": "exact common-mixture weights, seven orbit scalar rows, and physical targets",
+      "bytes": 22268,
+      "sha256": "87cb98501e197e8013f92176f9048f0bd7ce123df7529ed09130f8e9929c3b32"
+    },
+    {
       "path": "data/validation/core_controls.json",
       "role": "scientific input",
       "bytes": 1257,
@@ -224,14 +230,20 @@
     {
       "path": "docs/reproduction_map.md",
       "role": "scientific documentation",
-      "bytes": 5329,
-      "sha256": "81a23ef1c2525522635dd8b59277cf43a27e21210395e960b1e68cd6916d6ce0"
+      "bytes": 5849,
+      "sha256": "cb7d2d47c2bd7bf2d9eb05e66294229f80fcb94188440bdbebcfb2f3b06e6f02"
     },
     {
       "path": "docs/scalar_schema.md",
       "role": "scientific documentation",
-      "bytes": 9396,
-      "sha256": "d2603d0d349f16eb9a2d9da66857f895dda932f56bd95d5004ef13f76469aa7a"
+      "bytes": 10097,
+      "sha256": "aafddb661998ecb399a5a833b3496b5fb131c750323e9649be53e3c9b940651e"
+    },
+    {
+      "path": "docs/seven_orbit_witness.md",
+      "role": "seven-orbit witness conventions and reproduction instructions",
+      "bytes": 5317,
+      "sha256": "bb20af1c0434bc89d6cdbc949927c2e1c19d472f066d5a727a44a7af455932eb"
     },
     {
       "path": "requirements-plotting.txt",
@@ -312,10 +324,22 @@
       "sha256": "69a34fec3a27c865f552d8ee4da4a8d30ffe83316892f98294958e0955f84365"
     },
     {
+      "path": "results/witness/seven_orbit_witness_check.json",
+      "role": "expected exact witness replay result",
+      "bytes": 10676,
+      "sha256": "2b3c6383de4691552bb72d4fc2397409f7a628817482a1809712a5e069fa92fd"
+    },
+    {
       "path": "scripts/check_reported_diagnostics.py",
       "role": "analysis or drawing code",
       "bytes": 3601,
       "sha256": "8971630779d9a3cf39b9c7b84310680508577087623628ae960393a89e450777"
+    },
+    {
+      "path": "scripts/check_seven_orbit_witness.py",
+      "role": "standalone exact-arithmetic saved-scalar witness checker",
+      "bytes": 9055,
+      "sha256": "9c699f014cdd7a1df2a15399dbeaded0b0dd0363d96800d11eb7cb428d199647"
     },
     {
       "path": "scripts/methods/filter_kernels.py",

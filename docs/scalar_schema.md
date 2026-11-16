@@ -64,6 +64,8 @@ For each route the reducer forms `R=M/F`, with `F>0`, taking all four interval-c
 
 ## Diagnostics and plot inputs
 
+The separate `data/seven_orbit_witness.json` schema is documented in [seven_orbit_witness.md](seven_orbit_witness.md). Its explicit rational strings preserve binary64 orbit/band endpoints and exact-decimal physical population/moment targets without applying a single decimal interpretation to both. Pre-insertion face signs determine each orbit's moments and ordered joint-population indicators. One common exact weight vector reconstructs all observables; the checker requires full interval containment and zero unbroadened downward mass for the specified local probe. Raw intensities retain elastic weight, the signed transfer convention, and the documented stored-ray/ground-space qualifications.
+
 All scalar units and geometry/source labels are retained in the file headers. The following compact tables support saved-value checks and local plots.
 
 | File | Meaning |
