@@ -1,0 +1,7 @@
+width,event,eligible,definite,possible
+g005,X>0,170,133,139
+g005,D<0,170,112,117
+g010,X>0,170,132,133
+g010,D<0,170,111,113
+g005,joint,170,78,88
+g010,joint,170,76,77

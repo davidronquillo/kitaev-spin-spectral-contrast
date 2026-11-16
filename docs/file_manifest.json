@@ -1,0 +1,405 @@
+{
+  "manuscript_title": "Finite-size reversal of a multiparticle correction to local spin spectra in a flux-disordered Kitaev model",
+  "author": "David C. Ronquillo",
+  "hash_algorithm": "SHA-256",
+  "scope": "Supplied companion files; generated outputs and this manifest itself are excluded.",
+  "paper_mapping": "docs/reproduction_map.md",
+  "files": [
+    {
+      "path": ".gitignore",
+      "role": "repository documentation or configuration",
+      "bytes": 4755,
+      "sha256": "047583597ef8dc7b62b256c84927666ea15bfe44c40154de40825dfc4791ccec"
+    },
+    {
+      "path": "README.md",
+      "role": "repository documentation or configuration",
+      "bytes": 4424,
+      "sha256": "a038ac0796d234a4047eae09d38b565475338822be2c7fde666c916518d9bccd"
+    },
+    {
+      "path": "data/diagnostics/N6144_sign_frequencies.csv",
+      "role": "scientific input",
+      "bytes": 165,
+      "sha256": "4f031173b1f9c0091c7c6ca9b96d0d744f48301016fe672cc88adcef2997d138"
+    },
+    {
+      "path": "data/diagnostics/absolute_model_ordinates.csv",
+      "role": "scientific input",
+      "bytes": 5672,
+      "sha256": "e6674ca044bad15b896ae2eaaea5855b8b64c8e34a2676731a14e451b4b6fa7c"
+    },
+    {
+      "path": "data/diagnostics/endpoint_mean_table.csv",
+      "role": "scientific input",
+      "bytes": 1469,
+      "sha256": "d95a326c7707f8f60dbdd676461a7ccb102231db44f09f2dc5dfb68de48fb99c"
+    },
+    {
+      "path": "data/diagnostics/fixed_class_bound.json",
+      "role": "scientific input",
+      "bytes": 978,
+      "sha256": "03167d6d04f05123bdda1394284616b635ba948f3b9d78ee5cf4977137e153b7"
+    },
+    {
+      "path": "data/diagnostics/odd_depth_intercepts.csv",
+      "role": "scientific input",
+      "bytes": 1039,
+      "sha256": "60a3bb90d5ca1528854885a6c949fb98cd514e6475b7887ff1cc26b3158eabaa"
+    },
+    {
+      "path": "data/diagnostics/odd_depth_means.csv",
+      "role": "scientific input",
+      "bytes": 1386,
+      "sha256": "6965b70690dd9625efd7cef7b4346f9c291568ab1892ddb2d581dd82a2a18547"
+    },
+    {
+      "path": "data/diagnostics/paper_tables/absolute_rows.txt",
+      "role": "scientific input",
+      "bytes": 2029,
+      "sha256": "667cde06036c2d2b965a8ca7c48025f5c876c8730d7a0c4ec90f6819a41d62cc"
+    },
+    {
+      "path": "data/diagnostics/paper_tables/forced_ids.txt",
+      "role": "scientific input",
+      "bytes": 518,
+      "sha256": "74646741c86cda7ee08eae04924c1c2e6dc2ab67823b73877458f63645b63ede"
+    },
+    {
+      "path": "data/diagnostics/physical_050_comparison.csv",
+      "role": "scientific input",
+      "bytes": 884,
+      "sha256": "409143bb5289a2c3f2521b1d27e3f98ce7a92762812d94ee8494508a6122ae38"
+    },
+    {
+      "path": "data/diagnostics/physical_field_curves.csv",
+      "role": "scientific input",
+      "bytes": 41928,
+      "sha256": "e294150b4f7c3dfae6bc757a35ce426d314236726d39151d8f8716470b11ad4b"
+    },
+    {
+      "path": "data/diagnostics/physical_minimum_candidates.csv",
+      "role": "scientific input",
+      "bytes": 373,
+      "sha256": "422514189b2270d3ab857bde934f6ad7e9021dfb52f59656661d34b5f80efeb7"
+    },
+    {
+      "path": "data/diagnostics/plot_summary.json",
+      "role": "scientific input",
+      "bytes": 72925,
+      "sha256": "085e28a98cb83807c5d97973642111a13405b6f9bed90e59fd023f75be558d90"
+    },
+    {
+      "path": "data/diagnostics/window_fraction_bounds_N6144.csv",
+      "role": "scientific input",
+      "bytes": 58857,
+      "sha256": "e646e7bc06621341282ccc2026e385c3206302c2b75363c40089b91fef92e265"
+    },
+    {
+      "path": "data/diagnostics/window_fraction_counts.json",
+      "role": "scientific input",
+      "bytes": 168,
+      "sha256": "60418de0bbd838d17c5821aba202a129bcc80ac0cfe0f43c7ecfa86f08ab16e1"
+    },
+    {
+      "path": "data/relative_contrast/original_mean_inputs.csv",
+      "role": "scientific input",
+      "bytes": 663,
+      "sha256": "289a3fbaae570c851638ee570691810a677e5bb96d0c9f03b850808620e3edc0"
+    },
+    {
+      "path": "data/relative_contrast/printed_input_rows.csv",
+      "role": "scientific input",
+      "bytes": 589,
+      "sha256": "5ec5cd6d56f72b608af9978453b68b79289f394293cff3dfb06b8652bd204e61"
+    },
+    {
+      "path": "data/scalars/fresh_endpoint_boxes.csv",
+      "role": "scientific input",
+      "bytes": 5312669,
+      "sha256": "94201b7a3f5d8bfa1d1ab3365bc2f0d71fab91129c0809bcd1bfe7ff65e07a8a"
+    },
+    {
+      "path": "data/scalars/n24/n24_exact_law.json",
+      "role": "scientific input",
+      "bytes": 3526,
+      "sha256": "a93d45e69f421cce5742148109a397dfc5eec2afe437d3248afbf98830e35efa"
+    },
+    {
+      "path": "data/scalars/n24/n24_numerical_error_metadata.csv",
+      "role": "scientific input",
+      "bytes": 1827016,
+      "sha256": "7785a4b664e0848fc1e107553bb8213948c593cac0c3abcd3344c43b9744b247"
+    },
+    {
+      "path": "data/scalars/n24/n24_odd_scalar_boxes.csv",
+      "role": "scientific input",
+      "bytes": 3709102,
+      "sha256": "5cf1ee5e9c5dbe425df0462ae24c7cee811f3c04bb1d9ed455a02710ce8c308c"
+    },
+    {
+      "path": "data/scalars/n24/n24_orbit_catalog.csv",
+      "role": "scientific input",
+      "bytes": 565499,
+      "sha256": "b972550f18baca89d347ab80eb2c7d093aa28eb317886df1a71e6bc2b9504af7"
+    },
+    {
+      "path": "data/scalars/n24/n24_probability_classes.csv",
+      "role": "scientific input",
+      "bytes": 164608,
+      "sha256": "95e0408b55922560d66e3faf11efdcab1209610f42147b4a4322ebe3b129fe44"
+    },
+    {
+      "path": "data/scalars/n24/n24_published_reference_summary.json",
+      "role": "scientific input",
+      "bytes": 4525,
+      "sha256": "05e9981d3698dbed5f71256aceeea4e787856fa2e1526766d42df3dcb7ff2677"
+    },
+    {
+      "path": "data/scalars/paper_tables/median_rows.txt",
+      "role": "scientific input",
+      "bytes": 1366,
+      "sha256": "e8724782996f1ce81e20a56df63f37e03756379ec9b5782be2a02401e5fe38ed"
+    },
+    {
+      "path": "data/scalars/paper_tables/normalization_rows.txt",
+      "role": "scientific input",
+      "bytes": 250,
+      "sha256": "fef0962c7188847450b159127ae087f40a347dbe7bace1e774838c2474a2a942"
+    },
+    {
+      "path": "data/scalars/protected_medians.csv",
+      "role": "scientific input",
+      "bytes": 17261,
+      "sha256": "23222bf7c383148784b20b5aed02b107c0d23933caec14918525e268753a42a0"
+    },
+    {
+      "path": "data/validation/core_controls.json",
+      "role": "scientific input",
+      "bytes": 1257,
+      "sha256": "cfbbcbf7d94cf292e41224d678e4fa0409d21ee50c9add37bdfecef10ae37ace"
+    },
+    {
+      "path": "data/validation/direct_precision.csv",
+      "role": "scientific input",
+      "bytes": 147631,
+      "sha256": "7a1a430512b53bdd0d001bfc1e0554e6d82a918a46f1954b0a5492f84b40ac2d"
+    },
+    {
+      "path": "data/validation/direct_selection.csv",
+      "role": "scientific input",
+      "bytes": 686,
+      "sha256": "08bad5cd102258688cebbee49ae7ce40049518190d6c83f1ab38579187721937"
+    },
+    {
+      "path": "data/validation/fixtures_24_site.json",
+      "role": "scientific input",
+      "bytes": 313650,
+      "sha256": "db7fec709d637bba0ed366c65d25cb83b1a8160671d8a483345e1a6659bd39a2"
+    },
+    {
+      "path": "data/validation/geometry_metadata.json",
+      "role": "scientific input",
+      "bytes": 2857,
+      "sha256": "62cf5af9a6fa005b66a4d86ecf0d0026465b6a787e79bcdc860a385e95ac3960"
+    },
+    {
+      "path": "data/validation/high_sector_controls.json",
+      "role": "scientific input",
+      "bytes": 60048,
+      "sha256": "f5c65db5c32ef50e88c682380ae47c794cde291781fa1798f742462c21b01257"
+    },
+    {
+      "path": "data/validation/transform_controls.json",
+      "role": "scientific input",
+      "bytes": 35817,
+      "sha256": "8a103a81ea380e6884bb0dffcd51828f03e427dba319317b0afc7dff89f418c0"
+    },
+    {
+      "path": "docs/methods_and_plotting.md",
+      "role": "scientific documentation",
+      "bytes": 5129,
+      "sha256": "4d130fb35e531ae3312c6a463e086c7899ce24e65bd6e27bb29b95bf7e9fe235"
+    },
+    {
+      "path": "docs/reproduction_map.md",
+      "role": "scientific documentation",
+      "bytes": 5329,
+      "sha256": "81a23ef1c2525522635dd8b59277cf43a27e21210395e960b1e68cd6916d6ce0"
+    },
+    {
+      "path": "docs/scalar_schema.md",
+      "role": "scientific documentation",
+      "bytes": 9396,
+      "sha256": "d2603d0d349f16eb9a2d9da66857f895dda932f56bd95d5004ef13f76469aa7a"
+    },
+    {
+      "path": "requirements-plotting.txt",
+      "role": "repository documentation or configuration",
+      "bytes": 187,
+      "sha256": "6d6d79c0bf42e55a5a59e0c12294b9beab5bdffa2e45214308cf6d0a193ee5aa"
+    },
+    {
+      "path": "requirements.txt",
+      "role": "repository documentation or configuration",
+      "bytes": 172,
+      "sha256": "e75d4425c1369ef82f812321183931d5a63f9d621d6564c270fa3800a4607feb"
+    },
+    {
+      "path": "results/diagnostics/reported_diagnostic_checks.json",
+      "role": "reviewed expected output",
+      "bytes": 710,
+      "sha256": "2ea2cac1cf6811274966d2045c48f74567c72ba9cb4d1b25b7aadbab8eb149b9"
+    },
+    {
+      "path": "results/relative_contrast/independent_arithmetic_check.json",
+      "role": "reviewed expected output",
+      "bytes": 1551,
+      "sha256": "33485818d546b85bacb70e5c4996e7ffad082cf3ba39ae815f8ae45b34064897"
+    },
+    {
+      "path": "results/relative_contrast/relative_contrast_results.csv",
+      "role": "reviewed expected output",
+      "bytes": 931,
+      "sha256": "2b1a1d70ceb749a20102fd99691b592b0066e7044e56202e0019134844e3dae5"
+    },
+    {
+      "path": "results/relative_contrast/relative_contrast_results.json",
+      "role": "reviewed expected output",
+      "bytes": 5095,
+      "sha256": "27a416afe19474dc65bd92151726be701985e43aaabf1df88d7ea6d30b3cdfa9"
+    },
+    {
+      "path": "results/scalars/Table_S2_fresh_reproduced.csv",
+      "role": "reviewed expected output",
+      "bytes": 2229,
+      "sha256": "d6d4885093ad0c28f3a3d57db02fd7c9bc0f506b48e75993dd4f2543f43ba48c"
+    },
+    {
+      "path": "results/scalars/expected_output_comparison.json",
+      "role": "reviewed expected output",
+      "bytes": 1319,
+      "sha256": "087c160126a14ce08e486f3772a5bae58301011c5b46bbfed4f5182c074a54b0"
+    },
+    {
+      "path": "results/scalars/fresh_scalar_reduction.json",
+      "role": "reviewed expected output",
+      "bytes": 24075,
+      "sha256": "9123773840757d5a33010b26b69ec1eb9c999d473d199d1d0d5dd388dca34fe7"
+    },
+    {
+      "path": "results/scalars/n24_reduction_results.json",
+      "role": "reviewed expected output",
+      "bytes": 7606,
+      "sha256": "b7012bebe94cdb39661e4cfa48574cc3792cd0c604cf2f25b8beddc5e60e7033"
+    },
+    {
+      "path": "results/scalars/n24_reproduced_tables.csv",
+      "role": "reviewed expected output",
+      "bytes": 975,
+      "sha256": "fab42d015d809512247e890aa9ed3ed6913d3032c523c06a45260daaea6b3830"
+    },
+    {
+      "path": "results/validation/direct_summary.csv",
+      "role": "reviewed expected output",
+      "bytes": 690,
+      "sha256": "4c79664d193b0bb6d6bdaa4bdd85f25413218da99299472ab48eb3327e57ad51"
+    },
+    {
+      "path": "results/validation/validation_summary.json",
+      "role": "reviewed expected output",
+      "bytes": 4803,
+      "sha256": "69a34fec3a27c865f552d8ee4da4a8d30ffe83316892f98294958e0955f84365"
+    },
+    {
+      "path": "scripts/check_reported_diagnostics.py",
+      "role": "analysis or drawing code",
+      "bytes": 3601,
+      "sha256": "8971630779d9a3cf39b9c7b84310680508577087623628ae960393a89e450777"
+    },
+    {
+      "path": "scripts/methods/filter_kernels.py",
+      "role": "analysis or drawing code",
+      "bytes": 3106,
+      "sha256": "18049952f9b6f0d10efe73879fbf475cb0cd48cecd11cc5a4bc1b56ad37090bd"
+    },
+    {
+      "path": "scripts/methods/gaussian_chart.py",
+      "role": "analysis or drawing code",
+      "bytes": 12700,
+      "sha256": "dfcc6d70f6884498d3229271167a0e259b4f7cc8740e639576d2c2120071026b"
+    },
+    {
+      "path": "scripts/methods/geometry.py",
+      "role": "analysis or drawing code",
+      "bytes": 9313,
+      "sha256": "93a54963f044b06f2dc3be3671b2128e7d1ccba7e9e495a504d7f37ad1926c88"
+    },
+    {
+      "path": "scripts/methods/numerical_certificates.py",
+      "role": "analysis or drawing code",
+      "bytes": 20205,
+      "sha256": "63134a9edc1ec2355fa35528148a7d27878001d05fc30115a251382c6fdd60d4"
+    },
+    {
+      "path": "scripts/methods/sector_importance.py",
+      "role": "analysis or drawing code",
+      "bytes": 11493,
+      "sha256": "47dd0c1c6bd38be6e3375a1b3a4f60202fcd6355c2818b3bb9a62c9930245037"
+    },
+    {
+      "path": "scripts/plotting/draw_local_quench_schematic.py",
+      "role": "analysis or drawing code",
+      "bytes": 11298,
+      "sha256": "f591b56b80aad0dca2e6c5127867a2b2383d2bb11e8f670d9132dfb337f60254"
+    },
+    {
+      "path": "scripts/plotting/plot_saved_diagnostics.py",
+      "role": "analysis or drawing code",
+      "bytes": 11421,
+      "sha256": "d28613c147858b61faf25f74be3ea56db398d81958577cad306bb7c1bdbb74da"
+    },
+    {
+      "path": "scripts/relative_contrast/extract_original_means.py",
+      "role": "analysis or drawing code",
+      "bytes": 5931,
+      "sha256": "9b6db2fb4b981e57de4d01072d790c0569d5aa0cb1bfffcddb0d6f6e3a2ebc5d"
+    },
+    {
+      "path": "scripts/relative_contrast/reduce_relative_contrast.py",
+      "role": "analysis or drawing code",
+      "bytes": 4727,
+      "sha256": "6f0e1c0624a1ea9c7f7b8fdfa3a507220b9b54f26f7cb15e54721bcdcd852305"
+    },
+    {
+      "path": "scripts/relative_contrast/verify_relative_contrast.py",
+      "role": "analysis or drawing code",
+      "bytes": 2881,
+      "sha256": "d494b217711016f091d575a5373ca22c30118e658364ca925d090fd1fbe8069b"
+    },
+    {
+      "path": "scripts/scalars/reduce_fresh_scalars.py",
+      "role": "analysis or drawing code",
+      "bytes": 6768,
+      "sha256": "81c9b8a545e7ecd7c512af88c6310deb26e64d31ebd7f36ffd4ad387b094c287"
+    },
+    {
+      "path": "scripts/scalars/reduce_n24.py",
+      "role": "analysis or drawing code",
+      "bytes": 6538,
+      "sha256": "91648564bc5b6efc80bb1fe742f009ab7b18bbc3cab8ebc207cbc2df699e8522"
+    },
+    {
+      "path": "scripts/scalars/reproduce_scalar_tables.py",
+      "role": "analysis or drawing code",
+      "bytes": 3209,
+      "sha256": "4a41abd49e938965ee02193eb692f0c9398a983e23e5ecd1b6a5eebbe684ee16"
+    },
+    {
+      "path": "scripts/summarize_validation.py",
+      "role": "analysis or drawing code",
+      "bytes": 4578,
+      "sha256": "d3549b8ceabc81faf60e6be8f3ee3af875e711007142bd003dbcac598fa0391a"
+    }
+  ]
+}

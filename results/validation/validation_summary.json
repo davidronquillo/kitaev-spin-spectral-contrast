@@ -1,0 +1,182 @@
+{
+  "scope": "Standard-library reduction of saved validation scalars.",
+  "status": "PASS",
+  "N24": {
+    "orbits": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      8,
+      1299,
+      2452
+    ],
+    "strata": {
+      "even": [
+        0,
+        1
+      ],
+      "exact_zero_mode": [],
+      "odd_degenerate": [
+        1299,
+        2452
+      ],
+      "odd_singleton": [
+        2,
+        4,
+        7,
+        8
+      ]
+    },
+    "max_occupation_probability_difference": 1.9984014443252818e-15,
+    "max_component_occupation_L1_difference": 4.1897867528920954e-15,
+    "min_component_L1_allowance": 8.794510014159324e-10,
+    "max_component_L1_allowance": 8.796149733649082e-10,
+    "max_observable_halfwidth": 4.526182868294648e-07,
+    "acceptance_halfwidth": 1e-06,
+    "all_recorded_Fock_Gaussian_boxes_intersect": true,
+    "max_first_moment_difference": 1.1102230246251565e-14
+  },
+  "high_sector": {
+    "synthetic_modes": 7,
+    "q": [
+      5,
+      7
+    ],
+    "phase_choices": 3,
+    "max_coherent_amplitude_difference": 8.505453752507596e-17,
+    "amplitude_tolerance": 2e-12,
+    "total_recorded_checks": 620,
+    "all_saved_checks_pass": true
+  },
+  "independent_transform": {
+    "synthetic_modes": 10,
+    "widths": [
+      0.05,
+      0.1
+    ],
+    "total_recorded_checks": 406,
+    "largest_recorded_discrepancy": {
+      "allowed": 8.33503421460969e-11,
+      "error": 2.4102645257833545e-15,
+      "passed": true,
+      "test": "full_phase_and_damping_0.25_12.0_-3.75"
+    },
+    "all_saved_checks_pass": true
+  },
+  "low_sector_native": [
+    {
+      "kernels": 24,
+      "max_error": 1.0842021724855044e-19,
+      "offset": -1.0,
+      "phase": 0.0,
+      "q": 1
+    },
+    {
+      "kernels": 24,
+      "max_error": 1.0842021724855044e-19,
+      "offset": -1.0,
+      "phase": 0.0,
+      "q": 3
+    },
+    {
+      "kernels": 24,
+      "max_error": 1.734723475976807e-18,
+      "offset": 0.0,
+      "phase": 0.478,
+      "q": 1
+    },
+    {
+      "kernels": 24,
+      "max_error": 6.938893903907228e-18,
+      "offset": 0.0,
+      "phase": 0.478,
+      "q": 3
+    },
+    {
+      "kernels": 24,
+      "max_error": 1.3877787807814457e-17,
+      "offset": 1.1,
+      "phase": 0.913,
+      "q": 1
+    },
+    {
+      "kernels": 24,
+      "max_error": 5.551115123125783e-17,
+      "offset": 1.1,
+      "phase": 0.913,
+      "q": 3
+    }
+  ],
+  "assembly_control_retained_unresolved": {
+    "charged_quadratic_attempts": 2,
+    "parity": "even",
+    "reason": "occupied target cluster not isolated from complementary spectral intervals",
+    "source_certificate_valid": false,
+    "status": "unresolved"
+  },
+  "fresh_direct_comparison": [
+    {
+      "geometry": "C3n02",
+      "id": 1,
+      "MC_max_halfwidth": 0.00018294392994838457,
+      "direct_max_halfwidth": 0.0001356197229720957,
+      "combined_max_halfwidth": 0.0001356197229720957,
+      "direct_all_eight_targets_met": true,
+      "combined_all_eight_targets_met": true,
+      "recorded_issues": []
+    },
+    {
+      "geometry": "C3n04",
+      "id": 2,
+      "MC_max_halfwidth": 0.00018682555395023876,
+      "direct_max_halfwidth": 8.090900991549186e-05,
+      "combined_max_halfwidth": 8.090900991549186e-05,
+      "direct_all_eight_targets_met": true,
+      "combined_all_eight_targets_met": true,
+      "recorded_issues": []
+    },
+    {
+      "geometry": "C3n08",
+      "id": 0,
+      "MC_max_halfwidth": 0.00023332893380668293,
+      "direct_max_halfwidth": 0.0008160646150564314,
+      "combined_max_halfwidth": 0.00022390084220441498,
+      "direct_all_eight_targets_met": false,
+      "combined_all_eight_targets_met": true,
+      "recorded_issues": []
+    },
+    {
+      "geometry": "R24x32",
+      "id": 4,
+      "MC_max_halfwidth": 0.00024113017773492055,
+      "direct_max_halfwidth": 0.000701368591894384,
+      "combined_max_halfwidth": 0.00024113017773492055,
+      "direct_all_eight_targets_met": false,
+      "combined_all_eight_targets_met": true,
+      "recorded_issues": []
+    },
+    {
+      "geometry": "C3n12",
+      "id": 0,
+      "MC_max_halfwidth": 0.0002228996190619987,
+      "direct_max_halfwidth": 0.0004416262207141909,
+      "combined_max_halfwidth": 0.00021255545466931228,
+      "direct_all_eight_targets_met": false,
+      "combined_all_eight_targets_met": true,
+      "recorded_issues": []
+    },
+    {
+      "geometry": "C3n16",
+      "id": 1,
+      "MC_max_halfwidth": 0.0002441192434623865,
+      "direct_max_halfwidth": 0.00024342505605626466,
+      "combined_max_halfwidth": 0.00021866029940342184,
+      "direct_all_eight_targets_met": true,
+      "combined_all_eight_targets_met": true,
+      "recorded_issues": []
+    }
+  ],
+  "fresh_comparison_scope": "Summary of saved scalar comparison results, not a re-evaluation of transform nodes or stochastic samples."
+}

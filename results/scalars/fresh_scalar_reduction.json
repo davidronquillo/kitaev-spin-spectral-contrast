@@ -1,0 +1,1122 @@
+{
+  "status": "PASS",
+  "source_count": 1920,
+  "kept_all_sources": true,
+  "retained_wider_numerical_boxes": true,
+  "groups": [
+    {
+      "geometry": "C3n02",
+      "N": 96,
+      "total": 320,
+      "odd": 164,
+      "even": 156,
+      "ambiguous": 0
+    },
+    {
+      "geometry": "C3n04",
+      "N": 384,
+      "total": 320,
+      "odd": 156,
+      "even": 164,
+      "ambiguous": 0
+    },
+    {
+      "geometry": "C3n08",
+      "N": 1536,
+      "total": 320,
+      "odd": 175,
+      "even": 145,
+      "ambiguous": 0
+    },
+    {
+      "geometry": "C3n12",
+      "N": 3456,
+      "total": 320,
+      "odd": 177,
+      "even": 143,
+      "ambiguous": 0
+    },
+    {
+      "geometry": "C3n16",
+      "N": 6144,
+      "total": 320,
+      "odd": 170,
+      "even": 150,
+      "ambiguous": 0
+    },
+    {
+      "geometry": "R24x32",
+      "N": 1536,
+      "total": 320,
+      "odd": 135,
+      "even": 185,
+      "ambiguous": 0
+    }
+  ],
+  "fresh_Table_S2_intervals_reproduced": 48,
+  "fresh_Table_S2_scalar_endpoints_reproduced": 96,
+  "Table_S2": [
+    {
+      "geometry": "C3n02",
+      "N": 96,
+      "axis": "g005",
+      "endpoint": "X_c180",
+      "eligible": 164,
+      "ranks": [
+        60,
+        105
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.00017879430154183978",
+        "0.002088917823135555"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.178",
+        "2.089"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n02",
+      "N": 96,
+      "axis": "g005",
+      "endpoint": "X_c200",
+      "eligible": 164,
+      "ranks": [
+        61,
+        104
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "6.639528903031168e-05",
+        "0.0013622974540339948"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.066",
+        "1.363"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n02",
+      "N": 96,
+      "axis": "g005",
+      "endpoint": "X_c220",
+      "eligible": 164,
+      "ranks": [
+        60,
+        105
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "-0.0002750348703128478",
+        "0.0010747412150555516"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-0.276",
+        "1.075"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n02",
+      "N": 96,
+      "axis": "g005",
+      "endpoint": "D",
+      "eligible": 164,
+      "ranks": [
+        61,
+        104
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.002427911475621675",
+        "0.0016936762062771552"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-2.428",
+        "1.694"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n02",
+      "N": 96,
+      "axis": "g010",
+      "endpoint": "X_c180",
+      "eligible": 164,
+      "ranks": [
+        60,
+        105
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "7.010223078611194e-05",
+        "0.0032455904310140825"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.070",
+        "3.246"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n02",
+      "N": 96,
+      "axis": "g010",
+      "endpoint": "X_c200",
+      "eligible": 164,
+      "ranks": [
+        61,
+        104
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.00016377998005290037",
+        "0.002384550022317367"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-0.164",
+        "2.385"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n02",
+      "N": 96,
+      "axis": "g010",
+      "endpoint": "X_c220",
+      "eligible": 164,
+      "ranks": [
+        60,
+        105
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "-0.0011338605395076532",
+        "0.0019338577528100799"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-1.134",
+        "1.934"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n02",
+      "N": 96,
+      "axis": "g010",
+      "endpoint": "D",
+      "eligible": 164,
+      "ranks": [
+        61,
+        104
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.00434642657484335",
+        "0.0030904746189572775"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-4.347",
+        "3.091"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n04",
+      "N": 384,
+      "axis": "g005",
+      "endpoint": "X_c180",
+      "eligible": 156,
+      "ranks": [
+        56,
+        101
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0002972298981000903",
+        "0.0030837799646462292"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.297",
+        "3.084"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n04",
+      "N": 384,
+      "axis": "g005",
+      "endpoint": "X_c200",
+      "eligible": 156,
+      "ranks": [
+        58,
+        99
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "0.0002629937566287703",
+        "0.0022146799713332653"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.262",
+        "2.215"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n04",
+      "N": 384,
+      "axis": "g005",
+      "endpoint": "X_c220",
+      "eligible": 156,
+      "ranks": [
+        56,
+        101
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.00019337078310696548",
+        "0.0019590325798660743"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.193",
+        "1.960"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n04",
+      "N": 384,
+      "axis": "g005",
+      "endpoint": "D",
+      "eligible": 156,
+      "ranks": [
+        58,
+        99
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.004516090051268426",
+        "0.00023800187295996633"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-4.517",
+        "0.239"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n04",
+      "N": 384,
+      "axis": "g010",
+      "endpoint": "X_c180",
+      "eligible": 156,
+      "ranks": [
+        56,
+        101
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0006168146619317503",
+        "0.005703643654407068"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.616",
+        "5.704"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n04",
+      "N": 384,
+      "axis": "g010",
+      "endpoint": "X_c200",
+      "eligible": 156,
+      "ranks": [
+        58,
+        99
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "0.000529390686536432",
+        "0.004277646481770842"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.529",
+        "4.278"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n04",
+      "N": 384,
+      "axis": "g010",
+      "endpoint": "X_c220",
+      "eligible": 156,
+      "ranks": [
+        56,
+        101
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0004675784755795871",
+        "0.0038591285750341855"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.467",
+        "3.860"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n04",
+      "N": 384,
+      "axis": "g010",
+      "endpoint": "D",
+      "eligible": 156,
+      "ranks": [
+        58,
+        99
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.007888354089125834",
+        "-0.00023491701542495497"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-7.889",
+        "-0.234"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n08",
+      "N": 1536,
+      "axis": "g005",
+      "endpoint": "X_c180",
+      "eligible": 175,
+      "ranks": [
+        64,
+        112
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0005217763191397882",
+        "0.002478146160459885"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.521",
+        "2.479"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n08",
+      "N": 1536,
+      "axis": "g005",
+      "endpoint": "X_c200",
+      "eligible": 175,
+      "ranks": [
+        66,
+        110
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "0.00039434995513050057",
+        "0.0016617544595650003"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.394",
+        "1.662"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n08",
+      "N": 1536,
+      "axis": "g005",
+      "endpoint": "X_c220",
+      "eligible": 175,
+      "ranks": [
+        64,
+        112
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0002761718150089374",
+        "0.001711528971476804"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.276",
+        "1.712"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n08",
+      "N": 1536,
+      "axis": "g005",
+      "endpoint": "D",
+      "eligible": 175,
+      "ranks": [
+        66,
+        110
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.0056870948752353045",
+        "-0.0011645434083467074"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-5.688",
+        "-1.164"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n08",
+      "N": 1536,
+      "axis": "g010",
+      "endpoint": "X_c180",
+      "eligible": 175,
+      "ranks": [
+        64,
+        112
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.001092051372905318",
+        "0.0049400362020912605"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "1.092",
+        "4.941"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n08",
+      "N": 1536,
+      "axis": "g010",
+      "endpoint": "X_c200",
+      "eligible": 175,
+      "ranks": [
+        66,
+        110
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "0.0007520854962891008",
+        "0.0035993408831856816"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.752",
+        "3.600"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n08",
+      "N": 1536,
+      "axis": "g010",
+      "endpoint": "X_c220",
+      "eligible": 175,
+      "ranks": [
+        64,
+        112
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0005216870196784739",
+        "0.003986041903322002"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.521",
+        "3.987"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n08",
+      "N": 1536,
+      "axis": "g010",
+      "endpoint": "D",
+      "eligible": 175,
+      "ranks": [
+        66,
+        110
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.009501895626351573",
+        "-0.00211604536514315"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-9.502",
+        "-2.116"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n12",
+      "N": 3456,
+      "axis": "g005",
+      "endpoint": "X_c180",
+      "eligible": 177,
+      "ranks": [
+        65,
+        113
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0005861055921793007",
+        "0.0026036371693403"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.586",
+        "2.604"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n12",
+      "N": 3456,
+      "axis": "g005",
+      "endpoint": "X_c200",
+      "eligible": 177,
+      "ranks": [
+        67,
+        111
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "0.0005090437432596018",
+        "0.002015173182329518"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.509",
+        "2.016"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n12",
+      "N": 3456,
+      "axis": "g005",
+      "endpoint": "X_c220",
+      "eligible": 177,
+      "ranks": [
+        65,
+        113
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0006537831658344717",
+        "0.001780156993403936"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.653",
+        "1.781"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n12",
+      "N": 3456,
+      "axis": "g005",
+      "endpoint": "D",
+      "eligible": 177,
+      "ranks": [
+        67,
+        111
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.007716070885183868",
+        "-0.001784703550990963"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-7.717",
+        "-1.784"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n12",
+      "N": 3456,
+      "axis": "g010",
+      "endpoint": "X_c180",
+      "eligible": 177,
+      "ranks": [
+        65,
+        113
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0014750216425043043",
+        "0.0054023181565882325"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "1.475",
+        "5.403"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n12",
+      "N": 3456,
+      "axis": "g010",
+      "endpoint": "X_c200",
+      "eligible": 177,
+      "ranks": [
+        67,
+        111
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "0.0015684056197681649",
+        "0.004187088650873893"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "1.568",
+        "4.188"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n12",
+      "N": 3456,
+      "axis": "g010",
+      "endpoint": "X_c220",
+      "eligible": 177,
+      "ranks": [
+        65,
+        113
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0018153626853040406",
+        "0.004761294354283545"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "1.815",
+        "4.762"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n12",
+      "N": 3456,
+      "axis": "g010",
+      "endpoint": "D",
+      "eligible": 177,
+      "ranks": [
+        67,
+        111
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.012872535023785265",
+        "-0.0029453978543266773"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-12.873",
+        "-2.945"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n16",
+      "N": 6144,
+      "axis": "g005",
+      "endpoint": "X_c180",
+      "eligible": 170,
+      "ranks": [
+        62,
+        109
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0005762476743385762",
+        "0.0031859670213453487"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.576",
+        "3.186"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n16",
+      "N": 6144,
+      "axis": "g005",
+      "endpoint": "X_c200",
+      "eligible": 170,
+      "ranks": [
+        64,
+        107
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "0.0006525245346392538",
+        "0.0023296942171495954"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.652",
+        "2.330"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n16",
+      "N": 6144,
+      "axis": "g005",
+      "endpoint": "X_c220",
+      "eligible": 170,
+      "ranks": [
+        62,
+        109
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0006713970678947373",
+        "0.0020797540270613138"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.671",
+        "2.080"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n16",
+      "N": 6144,
+      "axis": "g005",
+      "endpoint": "D",
+      "eligible": 170,
+      "ranks": [
+        64,
+        107
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.005743537118352739",
+        "-0.0009433440862385978"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-5.744",
+        "-0.943"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n16",
+      "N": 6144,
+      "axis": "g010",
+      "endpoint": "X_c180",
+      "eligible": 170,
+      "ranks": [
+        62,
+        109
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.001780837666303807",
+        "0.006245987434903366"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "1.780",
+        "6.246"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n16",
+      "N": 6144,
+      "axis": "g010",
+      "endpoint": "X_c200",
+      "eligible": 170,
+      "ranks": [
+        64,
+        107
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "0.0015293247507222223",
+        "0.004800692942644899"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "1.529",
+        "4.801"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n16",
+      "N": 6144,
+      "axis": "g010",
+      "endpoint": "X_c220",
+      "eligible": 170,
+      "ranks": [
+        62,
+        109
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0015134902942136625",
+        "0.004598612987605112"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "1.513",
+        "4.599"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "C3n16",
+      "N": 6144,
+      "axis": "g010",
+      "endpoint": "D",
+      "eligible": 170,
+      "ranks": [
+        64,
+        107
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.009094563870380063",
+        "-0.001015850701244357"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-9.095",
+        "-1.015"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "R24x32",
+      "N": 1536,
+      "axis": "g005",
+      "endpoint": "X_c180",
+      "eligible": 135,
+      "ranks": [
+        47,
+        89
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0004611553367282099",
+        "0.0024394023067070367"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.461",
+        "2.440"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "R24x32",
+      "N": 1536,
+      "axis": "g005",
+      "endpoint": "X_c200",
+      "eligible": 135,
+      "ranks": [
+        49,
+        87
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "0.0004301653598205155",
+        "0.0022714353157148545"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.430",
+        "2.272"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "R24x32",
+      "N": 1536,
+      "axis": "g005",
+      "endpoint": "X_c220",
+      "eligible": 135,
+      "ranks": [
+        47,
+        89
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0004054447186676525",
+        "0.0022496691437878806"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.405",
+        "2.250"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "R24x32",
+      "N": 1536,
+      "axis": "g005",
+      "endpoint": "D",
+      "eligible": 135,
+      "ranks": [
+        49,
+        87
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.005334148260716195",
+        "-0.0007440862750663929"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-5.335",
+        "-0.744"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "R24x32",
+      "N": 1536,
+      "axis": "g010",
+      "endpoint": "X_c180",
+      "eligible": 135,
+      "ranks": [
+        47,
+        89
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.000979694107807714",
+        "0.004674278959759329"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "0.979",
+        "4.675"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "R24x32",
+      "N": 1536,
+      "axis": "g010",
+      "endpoint": "X_c200",
+      "eligible": 135,
+      "ranks": [
+        49,
+        87
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "0.001194554215030511",
+        "0.004844846380835305"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "1.194",
+        "4.845"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "R24x32",
+      "N": 1536,
+      "axis": "g010",
+      "endpoint": "X_c220",
+      "eligible": 135,
+      "ranks": [
+        47,
+        89
+      ],
+      "alpha": "1/2400",
+      "saved_bounds_normalized": [
+        "0.0010479749975412821",
+        "0.004538961158461749"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "1.047",
+        "4.539"
+      ],
+      "matches_original_protected_table": true
+    },
+    {
+      "geometry": "R24x32",
+      "N": 1536,
+      "axis": "g010",
+      "endpoint": "D",
+      "eligible": 135,
+      "ranks": [
+        49,
+        87
+      ],
+      "alpha": "1/800",
+      "saved_bounds_normalized": [
+        "-0.008976910804329583",
+        "-0.001314712669809384"
+      ],
+      "outward_bounds_1e_minus3_normalized": [
+        "-8.977",
+        "-1.314"
+      ],
+      "matches_original_protected_table": true
+    }
+  ],
+  "N6144_Table_S6": [
+    {
+      "N": 6144,
+      "axis": "g005",
+      "odd": 170,
+      "total": 320,
+      "units": "10^-3 absolute spin intensity",
+      "each_source": [
+        "-0.9767",
+        "-0.8567"
+      ],
+      "pooled": [
+        "-1.2502",
+        "-1.1292"
+      ],
+      "complete_cohort_from_original_rows": [
+        "-0.5189",
+        "-0.4551"
+      ],
+      "complete_cohort_from_printed_S6_bounds": [
+        "-0.5189",
+        "-0.4551"
+      ],
+      "interpretation": "Numerical bounds for this realized cohort, not population confidence intervals."
+    },
+    {
+      "N": 6144,
+      "axis": "g010",
+      "odd": 170,
+      "total": 320,
+      "units": "10^-3 absolute spin intensity",
+      "each_source": [
+        "-1.3953",
+        "-1.2656"
+      ],
+      "pooled": [
+        "-1.7007",
+        "-1.5704"
+      ],
+      "complete_cohort_from_original_rows": [
+        "-0.7413",
+        "-0.6723"
+      ],
+      "complete_cohort_from_printed_S6_bounds": [
+        "-0.7413",
+        "-0.6723"
+      ],
+      "interpretation": "Numerical bounds for this realized cohort, not population confidence intervals."
+    }
+  ],
+  "joint_coverage_floor_fraction": "287773113234076867152132031130947347287635575704329177/299315535325368917648114653740294762425534984801484800",
+  "joint_coverage_floor_decimal": "0.9614372769567575",
+  "scope": "Reductions of supplied finite-cohort numerical enclosures using exact ranks, means, and directed rounding.",
+  "new_physics_calculations": 0
+}

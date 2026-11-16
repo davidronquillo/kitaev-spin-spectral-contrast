@@ -1,0 +1,2 @@
+# Python 3 standard library suffices for every numerical reduction and saved-record summary.
+# Optional plotting and inspectable method modules: requirements-plotting.txt.

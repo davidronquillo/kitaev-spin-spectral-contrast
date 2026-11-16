@@ -1,0 +1,39 @@
+{
+  "scope": "fixed relative weights within each ordered initial (W0,W11) class",
+  "face_mean_in_frozen_baseline": [
+    "0.050000000000000",
+    "0.050000000000001"
+  ],
+  "pair_moment_in_frozen_baseline": [
+    "0.006786044041487",
+    "0.006786044041488"
+  ],
+  "frozen_class_probabilities": {
+    "++": [
+      "0.276696511010371",
+      "0.276696511010372"
+    ],
+    "+-": [
+      "0.248303488989628",
+      "0.248303488989629"
+    ],
+    "-+": [
+      "0.248303488989628",
+      "0.248303488989629"
+    ],
+    "--": [
+      "0.226696511010371",
+      "0.226696511010372"
+    ]
+  },
+  "equal_sign_excess_percentage_points": [
+    "0.332695070723546",
+    "0.332695443255232"
+  ],
+  "maximizing_class": "++",
+  "factor_upper": "1.195975039607178",
+  "frozen_raw_central_upper": "0.002837553640487",
+  "reweighted_central_upper": "0.003393643327568",
+  "raw_face0_dephased_central_lower": "0.003528060960389",
+  "shortfall_lower_absolute_spin_units": "0.000134417632821"
+}

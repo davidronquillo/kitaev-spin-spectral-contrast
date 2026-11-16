@@ -1,0 +1,7 @@
+geometry,id,disposition,first_eligible_identified,earlier_ambiguous_or_missing_ids,qualification_scope
+C3n02,1,fixed eligible ID retained,True,[],first eligible ID certified by all earlier exclusions
+C3n04,2,fixed eligible ID retained,True,[],first eligible ID certified by all earlier exclusions
+C3n08,0,fixed eligible ID retained,True,[],first eligible ID certified by all earlier exclusions
+R24x32,4,fixed eligible ID retained,True,[],first eligible ID certified by all earlier exclusions
+C3n12,0,fixed eligible ID retained,True,[],first eligible ID certified by all earlier exclusions
+C3n16,1,fixed eligible ID retained,True,[],first eligible ID certified by all earlier exclusions

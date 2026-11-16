@@ -1,0 +1,175 @@
+{
+  "geometries": [
+    {
+      "geometry": "C3n01",
+      "period_columns": [
+        [
+          2,
+          2
+        ],
+        [
+          -2,
+          4
+        ]
+      ],
+      "cells": 12,
+      "sites": 24
+    },
+    {
+      "geometry": "C3n02",
+      "period_columns": [
+        [
+          4,
+          4
+        ],
+        [
+          -4,
+          8
+        ]
+      ],
+      "cells": 48,
+      "sites": 96
+    },
+    {
+      "geometry": "C3n04",
+      "period_columns": [
+        [
+          8,
+          8
+        ],
+        [
+          -8,
+          16
+        ]
+      ],
+      "cells": 192,
+      "sites": 384
+    },
+    {
+      "geometry": "C3n08",
+      "period_columns": [
+        [
+          16,
+          16
+        ],
+        [
+          -16,
+          32
+        ]
+      ],
+      "cells": 768,
+      "sites": 1536
+    },
+    {
+      "geometry": "R12x16",
+      "period_columns": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          16
+        ]
+      ],
+      "cells": 192,
+      "sites": 384
+    },
+    {
+      "geometry": "R24x32",
+      "period_columns": [
+        [
+          24,
+          0
+        ],
+        [
+          0,
+          32
+        ]
+      ],
+      "cells": 768,
+      "sites": 1536
+    },
+    {
+      "geometry": "C3n12",
+      "period_columns": [
+        [
+          24,
+          24
+        ],
+        [
+          -24,
+          48
+        ]
+      ],
+      "cells": 1728,
+      "sites": 3456
+    },
+    {
+      "geometry": "C3n16",
+      "period_columns": [
+        [
+          32,
+          32
+        ],
+        [
+          -32,
+          64
+        ]
+      ],
+      "cells": 3072,
+      "sites": 6144
+    }
+  ],
+  "large_sample_geometries": [
+    "C3n02",
+    "C3n04",
+    "C3n08",
+    "R24x32",
+    "C3n12",
+    "C3n16"
+  ],
+  "bond_names": [
+    "x",
+    "y",
+    "z"
+  ],
+  "nearest_neighbor_displacements": [
+    [
+      0,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      0
+    ]
+  ],
+  "cell_key": "adj(T) r modulo det(T), lexicographic; A before B",
+  "source_site": 0,
+  "source_edge": 2,
+  "link_encoding": "int8 signs; canonical cell key then x,y,z",
+  "sampling": {
+    "source_ids": [
+      0,
+      319
+    ],
+    "source_ids_interpretation": "inclusive index bounds",
+    "hash": "SHA-256",
+    "digest_bytes_used": 16,
+    "integer_byte_order": "big",
+    "negative_link_condition": "digest integer < threshold",
+    "threshold": 66871911161826185187153288884631757060,
+    "counter_fields": [
+      "domain identifier",
+      "geometry label",
+      "source ID as three decimal digits",
+      "cell-key pair as four decimal digits each",
+      "bond name"
+    ],
+    "availability": "The sampling-domain identifier and external reference-labeling map are not supplied. These excerpts do not reconstruct original background assignments."
+  }
+}

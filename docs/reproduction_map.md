@@ -1,0 +1,26 @@
+# Paper-to-file reproduction map
+
+Run commands from the repository root with Python 3. The table reductions and record summaries use only its standard library. Generated files go under `outputs/`; reviewed expected outputs are retained under `results/`. The neutral file inventory and SHA-256 hashes are in `docs/file_manifest.json`.
+
+| Paper target | Inputs | Command | Expected output and checks |
+|---|---|---|---|
+| Table S2: 48 finite-cohort intervals and 8 exact-probability intervals | `data/scalars/fresh_endpoint_boxes.csv`, `protected_medians.csv`, `n24/`, and `paper_tables/median_rows.txt` | `python3 scripts/scalars/reproduce_scalar_tables.py` | `results/scalars/expected_output_comparison.json`; all 56 intervals and 112 endpoints match |
+| Table S6: each-source and after-averaging normalization | Same source rows, one-particle weights, and exact orbit probabilities; `paper_tables/normalization_rows.txt` | Same scalar command | All 8 intervals across 4 rows match, including the N6144 complete-cohort identity with factor `17/32`; detailed values in `fresh_scalar_reduction.json` and `n24_reduction_results.json` |
+| Figure 3: complete-N24 mean corrections | Exact orbit catalog, numerators, and N24 depth boxes | Same scalar command | `[0.2763,0.2764]` and `[0.5027,0.5029]` in `10^-3` absolute spin intensity |
+| Table S7 original-record means | N24 source/orbit records and N6144 signed-kernel boxes | `python3 scripts/relative_contrast/extract_original_means.py` | `outputs/relative_contrast/original_mean_inputs.csv` byte-matches the four supplied input rows; input hashes written to `input_bindings.json` |
+| Table S7 relative mean-contrast intervals | `data/relative_contrast/original_mean_inputs.csv` and `printed_input_rows.csv` | `python3 scripts/relative_contrast/reduce_relative_contrast.py` | `results/relative_contrast/relative_contrast_results.csv` and `.json`; eight original/printed-route ratios |
+| Table S7 separate arithmetic check | Same relative-contrast inputs and reducer output | `python3 scripts/relative_contrast/verify_relative_contrast.py` | `results/relative_contrast/independent_arithmetic_check.json`; directed Decimal quotients agree with all eight ratios |
+| Table S1 ordinate compatibility | `data/diagnostics/absolute_model_ordinates.csv` and `paper_tables/absolute_rows.txt` | `python3 scripts/check_reported_diagnostics.py` | `results/diagnostics/reported_diagnostic_checks.json`; all 96 printed boxes enclose their original ordinate rows |
+| Window classifications | All 170 rows in `window_fraction_bounds_N6144.csv` and `paper_tables/forced_ids.txt` | Same diagnostics command | 37 strictly higher-sector, 0 strictly one-particle, and 133 unresolved; forced source IDs agree |
+| Physical-field grid and minimum displacements | `physical_field_curves.csv`, `physical_minimum_candidates.csv` | Same diagnostics command | 802 total grid points; exact raw/inelastic discrete displacement sets, excluding `0.100` |
+| Sec. S2 saved validation records | `data/validation/` | `python3 scripts/summarize_validation.py` | `results/validation/validation_summary.json` and `direct_summary.csv`; saved check statuses and precision-target counts |
+| Figure 1 schematic | Editable `scripts/plotting/draw_local_quench_schematic.py` | `python3 scripts/plotting/draw_local_quench_schematic.py` | Locally generated vector schematic under `outputs/`; no scientific data are generated |
+| Diagnostic views of Figures 2–6 inputs | `data/diagnostics/` and `scripts/plotting/plot_saved_diagnostics.py` | `python3 scripts/plotting/plot_saved_diagnostics.py` | Five local diagnostic PDFs under `outputs/plots/`; these are views of the supplied data, not replacements for the approved quantitative artwork |
+
+The scalar wrapper invokes the finite-cohort and N24 reducers and checks the printed targets. Individual reducer commands are also available as `python3 scripts/scalars/reduce_fresh_scalars.py` and `python3 scripts/scalars/reduce_n24.py`. The relative reducer and independent checker assert byte identity against their expected result files. The optional mean extractor checks its output against the supplied original-record mean table.
+
+## Meaning of these reproduction commands
+
+The reductions reproduce the specified means, medians, normalization comparisons, relative contrasts, and saved-value classifications from supplied numerical enclosures. Their scientific interpretation retains the numerical-enclosure and sampling assumptions stated in the paper. The N6144 means describe the realized cohort; their numerical enclosures are not disorder-population confidence intervals. Table S2's finite-cohort population-median coverage uses the recorded rank/error allocations, while N24 uses exact orbit probabilities.
+
+The collection contains scalar records and selected method/validation code. It does not contain the full production runtime and all state/transform records needed to regenerate spectral enclosures. Physical-response recalculation would additionally require the physical-state evidence, elastic matrices, and seven-orbit witness records. No new disorder samples, eigensolves, fitted mixtures, or physical states are produced by the advertised numerical commands. Available plotting and method inspection capabilities are described in `docs/methods_and_plotting.md`.

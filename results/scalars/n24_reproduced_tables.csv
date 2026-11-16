@@ -1,0 +1,15 @@
+table_or_figure,axis,quantity,lo,hi,units
+Table S2,g005,D,1.407,1.409,10^-3 normalized intensity
+Table S2,g005,X18,-0.129,-0.128,10^-3 normalized intensity
+Table S2,g005,X2,-0.096,-0.094,10^-3 normalized intensity
+Table S2,g005,X22,-0.120,-0.119,10^-3 normalized intensity
+Table S6,g005,each_source,0.5861,0.5862,10^-3 absolute spin intensity
+Table S6,g005,after_averaging,0.5696,0.5698,10^-3 absolute spin intensity
+Figure 3 complete N24,g005,all-source D,0.2763,0.2764,10^-3 absolute spin intensity
+Table S2,g010,D,3.170,3.171,10^-3 normalized intensity
+Table S2,g010,X18,-0.525,-0.524,10^-3 normalized intensity
+Table S2,g010,X2,-0.392,-0.391,10^-3 normalized intensity
+Table S2,g010,X22,-0.490,-0.489,10^-3 normalized intensity
+Table S6,g010,each_source,1.0663,1.0665,10^-3 absolute spin intensity
+Table S6,g010,after_averaging,0.9925,0.9926,10^-3 absolute spin intensity
+Figure 3 complete N24,g010,all-source D,0.5027,0.5029,10^-3 absolute spin intensity

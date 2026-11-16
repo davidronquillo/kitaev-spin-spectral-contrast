@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local analysis and drawing outputs
+/output/
+/outputs/
+*.pdf
+*.png
+*.svg
+*.zip
+.DS_Store

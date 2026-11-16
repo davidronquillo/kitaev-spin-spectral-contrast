@@ -1,0 +1,5 @@
+N,gamma_over_Jsigma,eligible,population,S1_lo,S1_hi,S2_lo,S2_hi,S3_lo,S3_hi,M_lo,M_hi,units
+24,0.05,3892,exact conditional odd law,8.759,8.760,3.009,3.010,4.711,4.712,0.5861,0.5862,10^-3 absolute spin intensity
+24,0.10,3892,exact conditional odd law,16.502,16.503,6.947,6.948,9.596,9.597,1.0663,1.0665,10^-3 absolute spin intensity
+6144,0.05,170,realized eligible odd cohort,5.969,6.033,3.618,3.681,4.895,4.964,-0.9767,-0.8567,10^-3 absolute spin intensity
+6144,0.10,170,realized eligible odd cohort,12.259,12.328,7.177,7.246,9.520,9.597,-1.3953,-1.2656,10^-3 absolute spin intensity

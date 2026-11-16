@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "method": "Independent directed 70-digit Decimal arithmetic; no reducer import.",
+  "checks": [
+    {
+      "route": "printed",
+      "N": 24,
+      "width": "0.05",
+      "percent": [
+        "15.7",
+        "15.8"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "printed",
+      "N": 24,
+      "width": "0.10",
+      "percent": [
+        "17.4",
+        "17.5"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "printed",
+      "N": 6144,
+      "width": "0.05",
+      "percent": [
+        "-55.8",
+        "-45.5"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "printed",
+      "N": 6144,
+      "width": "0.10",
+      "percent": [
+        "-38.3",
+        "-33.4"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "original",
+      "N": 24,
+      "width": "0.05",
+      "percent": [
+        "15.7",
+        "15.8"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "original",
+      "N": 24,
+      "width": "0.10",
+      "percent": [
+        "17.4",
+        "17.5"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "original",
+      "N": 6144,
+      "width": "0.05",
+      "percent": [
+        "-55.7",
+        "-45.6"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "original",
+      "N": 6144,
+      "width": "0.10",
+      "percent": [
+        "-38.3",
+        "-33.4"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "new_physics": false,
+  "limits": "Arithmetic check on supplied boxes, not independent validation of their spectral construction."
+}

@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "Table_S2_intervals_matching_paper": 56,
+  "Table_S2_scalar_endpoints_matching_paper": 112,
+  "Table_S2_fresh_intervals": 48,
+  "Table_S2_exact_N24_intervals": 8,
+  "Table_S6_rows": 4,
+  "Table_S6_intervals_matching_paper": 8,
+  "Table_S6": [
+    {
+      "N": 24,
+      "width": "0.05",
+      "each_source": [
+        "0.5861",
+        "0.5862"
+      ],
+      "after_averaging": [
+        "0.5696",
+        "0.5698"
+      ]
+    },
+    {
+      "N": 24,
+      "width": "0.10",
+      "each_source": [
+        "1.0663",
+        "1.0665"
+      ],
+      "after_averaging": [
+        "0.9925",
+        "0.9926"
+      ]
+    },
+    {
+      "N": 6144,
+      "width": "0.05",
+      "each_source": [
+        "-0.9767",
+        "-0.8567"
+      ],
+      "after_averaging": [
+        "-1.2502",
+        "-1.1292"
+      ]
+    },
+    {
+      "N": 6144,
+      "width": "0.10",
+      "each_source": [
+        "-1.3953",
+        "-1.2656"
+      ],
+      "after_averaging": [
+        "-1.7007",
+        "-1.5704"
+      ]
+    }
+  ],
+  "Figure3_complete_N24_annotations": {
+    "g005": [
+      "0.2763",
+      "0.2764"
+    ],
+    "g010": [
+      "0.5027",
+      "0.5029"
+    ]
+  },
+  "substantive_discrepancies": [],
+  "scope": "Exact output comparison using supplied numerical enclosures and probability metadata."
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "table_S1_numeric_boxes_enclose_original_ordinate_rows": 96,
+  "stored_window_bounds_classification": {
+    "higher": 37,
+    "one_particle": 0,
+    "unresolved": 133
+  },
+  "forced_ids_match_printed_list": true,
+  "field_displacement_sets_Jsigma": {
+    "raw": [
+      "0.080",
+      "0.085",
+      "0.090",
+      "0.095",
+      "0.105",
+      "0.110",
+      "0.115",
+      "0.120"
+    ],
+    "inelastic": [
+      "0.075",
+      "0.080",
+      "0.085",
+      "0.090",
+      "0.095",
+      "0.110",
+      "0.115",
+      "0.120"
+    ]
+  },
+  "field_curve_points": 802,
+  "scope": "Saved-value compatibility checks, window classifications, field grids, and discrete displacement sets."
+}

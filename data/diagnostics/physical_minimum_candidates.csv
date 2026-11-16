@@ -1,0 +1,17 @@
+field,layer,grid_index,center_Jsigma
+050,raw,195,2.475
+050,raw,196,2.480
+050,inelastic,195,2.475
+050,inelastic,196,2.480
+055,raw,212,2.560
+055,raw,213,2.565
+055,raw,214,2.570
+055,raw,217,2.585
+055,raw,218,2.590
+055,raw,219,2.595
+055,inelastic,211,2.555
+055,inelastic,212,2.560
+055,inelastic,213,2.565
+055,inelastic,214,2.570
+055,inelastic,218,2.590
+055,inelastic,219,2.595

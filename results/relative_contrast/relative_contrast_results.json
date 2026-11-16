@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "definition": "R = mean_odd[d(P)-d(S)] / d(mean_odd[S]); P is matched on each source.",
+  "units": "M,F: 10^-3 absolute spin intensity; R dimensionless.",
+  "rounding": "Exact rational endpoints; directed outward decimal rounding.",
+  "coverage": "Conditional on inherited saved-enclosure guarantees. No independence assumption or new population coverage.",
+  "original_intervals_inside_printed_bounds": true,
+  "rows": [
+    {
+      "input_route": "printed",
+      "N": 24,
+      "gamma_over_Jsigma": "0.05",
+      "population": "exact conditional odd law",
+      "eligible": 3892,
+      "M_absolute_x1000": [
+        "0.5861000000000000",
+        "0.5862000000000000"
+      ],
+      "F_absolute_x1000": [
+        "3.7250000000000000",
+        "3.7270000000000000"
+      ],
+      "denominator_strictly_positive": true,
+      "ratio_outward_16dp": [
+        "0.1572578481352294",
+        "0.1573691275167786"
+      ],
+      "percent_outward_0p1pp": [
+        "15.7",
+        "15.8"
+      ]
+    },
+    {
+      "input_route": "printed",
+      "N": 24,
+      "gamma_over_Jsigma": "0.10",
+      "population": "exact conditional odd law",
+      "eligible": 3892,
+      "M_absolute_x1000": [
+        "1.0663000000000000",
+        "1.0665000000000000"
+      ],
+      "F_absolute_x1000": [
+        "6.1010000000000000",
+        "6.1030000000000000"
+      ],
+      "denominator_strictly_positive": true,
+      "ratio_outward_16dp": [
+        "0.1747173521219072",
+        "0.1748074086215375"
+      ],
+      "percent_outward_0p1pp": [
+        "17.4",
+        "17.5"
+      ]
+    },
+    {
+      "input_route": "printed",
+      "N": 6144,
+      "gamma_over_Jsigma": "0.05",
+      "population": "realized eligible odd cohort",
+      "eligible": 170,
+      "M_absolute_x1000": [
+        "-0.9767000000000000",
+        "-0.8567000000000000"
+      ],
+      "F_absolute_x1000": [
+        "1.7510000000000000",
+        "1.8805000000000000"
+      ],
+      "denominator_strictly_positive": true,
+      "ratio_outward_16dp": [
+        "-0.5577955454026271",
+        "-0.4555703270406806"
+      ],
+      "percent_outward_0p1pp": [
+        "-55.8",
+        "-45.5"
+      ]
+    },
+    {
+      "input_route": "printed",
+      "N": 6144,
+      "gamma_over_Jsigma": "0.10",
+      "population": "realized eligible odd cohort",
+      "eligible": 170,
+      "M_absolute_x1000": [
+        "-1.3953000000000000",
+        "-1.2656000000000000"
+      ],
+      "F_absolute_x1000": [
+        "3.6435000000000000",
+        "3.7855000000000000"
+      ],
+      "denominator_strictly_positive": true,
+      "ratio_outward_16dp": [
+        "-0.3829559489501853",
+        "-0.3343283582089552"
+      ],
+      "percent_outward_0p1pp": [
+        "-38.3",
+        "-33.4"
+      ]
+    },
+    {
+      "input_route": "original",
+      "N": 24,
+      "gamma_over_Jsigma": "0.05",
+      "population": "exact conditional odd law",
+      "eligible": 3892,
+      "M_absolute_x1000": [
+        "0.5861114783049944",
+        "0.5861494894256670"
+      ],
+      "F_absolute_x1000": [
+        "3.7263739923160239",
+        "3.7263877074887019"
+      ],
+      "denominator_strictly_positive": true,
+      "ratio_outward_16dp": [
+        "0.1572867678602311",
+        "0.1572975473300151"
+      ],
+      "percent_outward_0p1pp": [
+        "15.7",
+        "15.8"
+      ]
+    },
+    {
+      "input_route": "original",
+      "N": 24,
+      "gamma_over_Jsigma": "0.10",
+      "population": "exact conditional odd law",
+      "eligible": 3892,
+      "M_absolute_x1000": [
+        "1.0663839977487617",
+        "1.0664167559609037"
+      ],
+      "F_absolute_x1000": [
+        "6.1020216951699774",
+        "6.1020290109583414"
+      ],
+      "denominator_strictly_positive": true,
+      "ratio_outward_16dp": [
+        "0.1747589196697842",
+        "0.1747644976098693"
+      ],
+      "percent_outward_0p1pp": [
+        "17.4",
+        "17.5"
+      ]
+    },
+    {
+      "input_route": "original",
+      "N": 6144,
+      "gamma_over_Jsigma": "0.05",
+      "population": "realized eligible odd cohort",
+      "eligible": 170,
+      "M_absolute_x1000": [
+        "-0.9766660416149116",
+        "-0.8567536898981347"
+      ],
+      "F_absolute_x1000": [
+        "1.7558184200375343",
+        "1.8757415671537844"
+      ],
+      "denominator_strictly_positive": true,
+      "ratio_outward_16dp": [
+        "-0.5562454696164045",
+        "-0.4567546536798013"
+      ],
+      "percent_outward_0p1pp": [
+        "-55.7",
+        "-45.6"
+      ]
+    },
+    {
+      "input_route": "original",
+      "N": 6144,
+      "gamma_over_Jsigma": "0.10",
+      "population": "realized eligible odd cohort",
+      "eligible": 170,
+      "M_absolute_x1000": [
+        "-1.3952937707416407",
+        "-1.2656389385884795"
+      ],
+      "F_absolute_x1000": [
+        "3.6494357162200370",
+        "3.7790865675591470"
+      ],
+      "denominator_strictly_positive": true,
+      "ratio_outward_16dp": [
+        "-0.3823313737354550",
+        "-0.3349060456706965"
+      ],
+      "percent_outward_0p1pp": [
+        "-38.3",
+        "-33.4"
+      ]
+    }
+  ]
+}

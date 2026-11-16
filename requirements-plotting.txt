@@ -1,0 +1,5 @@
+# Optional plotting and inspectable numerical-method dependencies.
+# Tested together with Python 3.9.18; these pins support Python 3.9-3.11.
+numpy==1.24.4
+scipy==1.11.2
+matplotlib==3.7.2
