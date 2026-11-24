@@ -1,8 +1,6 @@
 # Kitaev spin spectral contrast
 
-Data and analysis scripts accompanying **“Finite-size reversal of a multiparticle correction to local spin spectra in a flux-disordered Kitaev model”**, by **David C. Ronquillo**.
-
-The companion is currently private during author review. Public access is planned to coincide with the preprint. Licensing remains subject to the author's release decision; this preparation does not grant a new license. No DOI, arXiv identifier, or publication status is assigned here.
+This repository is the public data and analysis companion to the preprint *Finite-size reversal of a multiparticle correction to local spin spectra in a flux-disordered Kitaev honeycomb model* by David C. Ronquillo ([arXiv:2611.29070](https://arxiv.org/abs/2611.29070)).
 
 ## Reproduce the numerical reductions
 
